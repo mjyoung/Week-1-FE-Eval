@@ -1,7 +1,7 @@
 #background {
   background: url('dog_bg_1920x1080.jpg') !important;
   background-position: center !important;
-  background-size: 850px !important;
+  background-size: 750px !important;
   background-repeat: no-repeat !important;
 }
 
@@ -25,9 +25,16 @@
 #formcontainer {
   background-color: rgb(0,175,240) !important;
   padding: 30px 20px 20px 30px !important;
-  position: relative !important;
+  /*position: relative !important;*/
   bottom: -40px !important;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px gray;
 }
+
+/*#form_shadow {
+  margin-top: 20px;
+  box-shadow: 0px 20px 20px 0 gray;
+}*/
 
 form {
   margin-left: 20px !important;
@@ -48,8 +55,12 @@ form {
 }
 
 #footer {
-  background: url('grass.jpg');
-  /*background-color: rgb(155,185,15);*/
+  /*background: url('grass.jpg');*/
+  background-color: rgb(155,185,15);
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+#footer p {
+  font-size: 0.7em;
 }
